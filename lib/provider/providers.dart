@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:machine_test_gritstone/model/movie_entity.dart';
-import 'package:machine_test_gritstone/model/trendingModel.dart';
+import 'package:machine_test_gritstone/model/treanding_model.dart';
 import 'package:machine_test_gritstone/services/api_services.dart';
 
 final apiFutureProvider = FutureProvider<List<MovieEntity>>((ref) async {
